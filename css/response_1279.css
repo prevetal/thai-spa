@@ -1,0 +1,930 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 18px;
+        line-height: 120.9%;
+    }
+
+
+    .accordion_item .text_block
+    {
+        padding-top: 12px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: -28px;
+        right: 48px;
+
+        width: 56px;
+        height: 56px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close svg
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .logo img
+    {
+        height: 56px;
+    }
+
+
+    header .data
+    {
+        width: calc(100% - 204px);
+    }
+
+
+    header .menu_btn .icon
+    {
+        width: 52px;
+        height: 14px;
+    }
+
+
+    header .menu_btn + .links
+    {
+        margin-left: 32px;
+    }
+
+
+    header .phone .btn,
+    header .phone .mini_modal a
+    {
+        font-size: 28px;
+    }
+
+
+    header .menu_pdf_link a
+    {
+        width: 140px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .label
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 20px;
+        line-height: 22px;
+
+        width: 216px;
+        height: 64px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .info
+    {
+        width: 736px;
+    }
+
+
+    .first_section .before_title
+    {
+        font-size: 24px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 148px;
+    }
+
+
+    .first_section .after_title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .services .block_title
+    {
+        font-size: 64px;
+    }
+
+
+    .services .service .letter
+    {
+        font-size: 220px;
+
+        padding: 24px;
+    }
+
+
+    .services .service .thumb
+    {
+        padding-bottom: 150%;
+    }
+
+
+    .services .service .info
+    {
+        padding: 24px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block .data
+    {
+        min-height: 650px;
+        padding: 60px 40px;
+    }
+
+
+    .about_block .block_title
+    {
+        font-size: 48px;
+    }
+
+
+    .about_block .company
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .about_block .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------------
+        Contacts block
+    -----------------*/
+    .contacts_block .block_title
+    {
+        font-size: 64px;
+    }
+
+
+    .contacts_block .time
+    {
+        font-size: 16px;
+
+        margin-top: 40px;
+    }
+
+
+    .contacts_block .location
+    {
+        font-size: 28px;
+    }
+
+
+    .contacts_block .phones,
+    .contacts_block .email
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .contacts_info .head
+    {
+        margin-bottom: 72px;
+        padding: 72px 0 60px;
+    }
+
+
+    .contacts_info .head .block_title
+    {
+        font-size: 72px;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 400px;
+    }
+
+
+    .contacts_info .item
+    {
+        font-size: 24px;
+    }
+
+    .contacts_info .item + .item
+    {
+        margin-top: 24px;
+        padding-top: 24px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 448px);
+        height: 440px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 72px 0;
+    }
+
+
+    .feedback .block_title
+    {
+        font-size: 48px;
+        line-height: 56px;
+
+        margin-bottom: 48px;
+    }
+
+
+    .feedback .form
+    {
+        width: 640px;
+    }
+
+
+
+    /*---------------
+        Main menu
+    ---------------*/
+    .main_menu .data
+    {
+        width: calc(100% - 440px);
+        padding: 52px 88px;
+    }
+
+
+    .main_menu .links
+    {
+        font-size: 56px;
+    }
+
+
+    .main_menu .image
+    {
+        width: 440px;
+    }
+
+
+
+    /*------------
+        Tour3d
+    ------------*/
+    .tour3d .degrees
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        width: 88px;
+        height: 88px;
+    }
+
+
+    .tour3d .title
+    {
+        font-size: 72px;
+    }
+
+
+    .tour3d .btn
+    {
+        bottom: 52px;
+    }
+
+    .tour3d .btn.prev_btn
+    {
+        margin-left: -360px;
+    }
+
+    .tour3d .btn.next_btn
+    {
+        margin-right: -360px;
+    }
+
+
+
+    /*------------------
+        Gallery head
+    ------------------*/
+    .gallery_head .cont
+    {
+        min-height: 400px;
+        padding-top: 68px;
+        padding-bottom: 48px;
+    }
+
+
+    .gallery_head .title
+    {
+        font-size: 72px;
+    }
+
+
+    .gallery_head .tour_3d_btn
+    {
+        font-size: 18px;
+
+        width: 224px;
+        height: 56px;
+        margin-top: 52px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery .row
+    {
+        padding-bottom: 80px;
+    }
+
+    .gallery .row > *:nth-child(3n+2)
+    {
+        top: 80px;
+    }
+
+
+
+    .gallery .write_to_us
+    {
+        margin-top: 60px;
+    }
+
+    .gallery .write_to_us .btn
+    {
+        font-size: 18px;
+
+        width: 240px;
+        height: 60px;
+    }
+
+
+
+    /*--------------------
+        Feedback modal
+    --------------------*/
+    .feedback_modal .data
+    {
+        width: calc(50% + 120px);
+    }
+
+
+    .feedback_modal .block_title
+    {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+
+    .feedback_modal .image
+    {
+        width: calc(50% - 120px);
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form
+    {
+        padding: 68px 0;
+    }
+
+
+    .order_form .block_title
+    {
+        font-size: 52px;
+        line-height: 62px;
+
+        margin-bottom: 60px;
+    }
+
+
+
+    /*---------------
+        Gift cert
+    ---------------*/
+    .gift_cert .head
+    {
+        min-height: 450px;
+        padding: 60px 0;
+    }
+
+
+    .gift_cert .head .block_title
+    {
+        font-size: 64px;
+    }
+
+
+
+    .gift_cert .types
+    {
+        padding: 68px 0;
+    }
+
+
+    .gift_cert .types .text
+    {
+        font-size: 20px;
+
+        width: 840px;
+    }
+
+
+    .gift_cert .types .btns
+    {
+        margin-top: 48px;
+    }
+
+
+    .gift_cert .types .btns .btn
+    {
+        font-size: 20px;
+        line-height: 72px;
+
+        width: 320px;
+        height: 72px;
+    }
+
+
+    .gift_cert .types .mini_modal button
+    {
+        font-size: 20px;
+
+        height: 72px;
+    }
+
+
+
+    .gift_cert .ways .block_title
+    {
+        font-size: 52px;
+
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .gift_cert .ways .block_title br
+    {
+        display: none;
+    }
+
+
+    .gift_cert .ways .cols
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+    .gift_cert .ways .col
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .gift_cert .ways .col:first-child
+    {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .gift_cert .ways .col:last-child
+    {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .gift_cert .ways .col.bg_white
+    {
+        padding-right: 44px;
+        padding-left: 24px;
+    }
+
+
+    .gift_cert .ways .title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .gift_cert .ways ul li
+    {
+        font-size: 17px;
+    }
+
+
+
+    .gift_cert .main_data .title
+    {
+        font-size: 44px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .gift_cert .main_data .item
+    {
+        font-size: 16px;
+    }
+
+
+
+    .gift_cert .with_love .title
+    {
+        font-size: 60px;
+        line-height: 72px;
+    }
+
+    .gift_cert .with_love span
+    {
+        font-size: 72px;
+    }
+
+
+
+    /*------------------
+        Masters head
+    ------------------*/
+    .masters_head .cont
+    {
+        min-height: 450px;
+    }
+
+
+    .masters_head .block_title
+    {
+        font-size: 72px;
+    }
+
+
+
+    /*------------------
+        Masters desc
+    ------------------*/
+    .masters_desc
+    {
+        margin-top: -48px;
+    }
+
+
+    .masters_desc .data
+    {
+        padding: 48px;
+    }
+
+
+    .masters_desc .text_block
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .person .name
+    {
+        font-size: 32px;
+    }
+
+
+    .persons .person .short_name
+    {
+        font-size: 22px;
+    }
+
+
+    .persons .person .desc
+    {
+        font-size: 20px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .service_info .block_title
+    {
+        font-size: 72px;
+    }
+
+
+    .service_info .types
+    {
+        margin-bottom: 56px;
+    }
+
+
+    .service_info .types a
+    {
+        font-size: 16px;
+
+        padding: 7px 23px;
+    }
+
+
+    .service_info .image
+    {
+        width: calc(100% + 48px);
+        height: 280px;
+        margin-right: -24px;
+        margin-bottom: -68px;
+        margin-left: -24px;
+    }
+
+
+    .service_info .items > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .cert
+    {
+        padding: 24px 24px 52px;
+    }
+
+
+    .certs .cert .thumb
+    {
+        height: 128px;
+        margin-bottom: 20px;
+    }
+
+
+    .certs .cert .btn
+    {
+        bottom: -24px;
+
+        width: 200px;
+        height: 48px;
+    }
+
+
+
+    /*-------------------
+        Services page
+    -------------------*/
+    .services_page
+    {
+        margin-bottom: 68px;
+        padding-top: 80px;
+    }
+
+    .services_page:before
+    {
+        height: 320px;
+    }
+
+
+    .services_page .block_title
+    {
+        font-size: 72px;
+
+        margin-bottom: 60px;
+    }
+
+
+
+    .services_page .grid
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .services_page .grid > *:nth-last-child(1)
+    {
+        grid-row: 3 / 5;
+        grid-column: 2 / 3;
+    }
+
+    .services_page .grid > *:nth-last-child(2)
+    {
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+    }
+
+
+    .services_page .grid > *:nth-last-child(2) .service,
+    .services_page .grid > *:nth-last-child(1) .service
+    {
+        padding: 40px;
+    }
+
+
+    .services_page .service .name .big2
+    {
+        font-size: 52px;
+    }
+
+
+    .services_page .grid > *:nth-last-child(1) .desc
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .faq > .head
+    {
+        margin-bottom: 68px;
+        padding: 80px 0 68px;
+    }
+
+
+    .faq > .head .block_title
+    {
+        font-size: 72px;
+    }
+
+
+    .faq > .head .block_desc
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        font-size: 19px;
+
+        margin-top: 40px;
+    }
+
+
+    footer .row
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 60px 48px;
+    }
+
+
+
+    .service_modal .col_left
+    {
+        width: 440px;
+    }
+
+    .service_modal .col_right
+    {
+        width: calc(100% - 480px);
+    }
+
+
+    .service_modal .service_name
+    {
+        font-size: 44px;
+        line-height: 52px;
+    }
+
+
+    .service_modal .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .service_modal .prices
+    {
+        font-size: 26px;
+    }
+
+    .service_modal .prices > *:before
+    {
+        top: 18px;
+    }
+
+    .service_modal .prices > * + *:before
+    {
+        top: 28px;
+    }
+
+
+    .service_modal .cert .btns .btn
+    {
+        font-size: 18px;
+        line-height: 56px;
+
+        height: 56px;
+    }
+}

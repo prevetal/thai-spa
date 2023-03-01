@@ -1,0 +1,874 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .mini_modal
+    {
+        top: calc(100% + 24px);
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content
+    {
+        width: 100%;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: -40px;
+        right: 60px;
+
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .first_section .cont
+    {
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+
+
+    .first_section .info
+    {
+        width: 1092px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 220px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .services .block_title
+    {
+        font-size: 84px;
+
+        margin-bottom: 48px;
+    }
+
+
+    .services .service .letter
+    {
+        font-size: 320px;
+        line-height: 100%;
+
+        padding: 24px 48px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block .image .ver_title
+    {
+        font-size: 180px;
+
+        top: -12px;
+        left: -36px;
+    }
+
+
+    .about_block .data
+    {
+        min-height: 860px;
+        padding: 100px;
+    }
+
+
+    .about_block .desc
+    {
+        margin-top: 60px;
+    }
+
+
+    .about_block .link
+    {
+        margin-top: 80px;
+    }
+
+
+
+    /*-----------------
+        Contacts block
+    -----------------*/
+    .contacts_block .data
+    {
+        min-height: 860px;
+        padding: 100px;
+    }
+
+
+    .contacts_block .block_title
+    {
+        font-size: 88px;
+        line-height: 98px;
+
+        margin-left: -24px;
+    }
+
+
+    .contacts_block .location
+    {
+        font-size: 36px;
+    }
+
+
+    .contacts_block .phones,
+    .contacts_block .email
+    {
+        font-size: 32px;
+
+        margin-top: 24px;
+    }
+
+
+    .contacts_block .feedback_btn
+    {
+        right: 100px;
+        bottom: 80px;
+    }
+
+
+
+    /*---------------
+        Main menu
+    ---------------*/
+    .main_menu .data
+    {
+        width: calc(100% - 600px);
+        padding: 68px 112px;
+    }
+
+
+    .main_menu .links
+    {
+        font-size: 88px;
+        line-height: 100%;
+    }
+
+
+    .main_menu .image
+    {
+        width: 600px;
+    }
+
+
+
+    /*------------
+        Tour3d
+    ------------*/
+    .tour3d .degrees
+    {
+        font-size: 22px;
+        line-height: 30px;
+
+        top: 30%;
+
+        width: 108px;
+        height: 108px;
+    }
+
+
+    .tour3d .title
+    {
+        font-size: 104px;
+
+        bottom: 44px;
+    }
+
+
+    .tour3d .btn
+    {
+        bottom: 80px;
+
+        width: 56px;
+        height: 28px;
+    }
+
+    .tour3d .btn.prev_btn
+    {
+        margin-left: -520px;
+    }
+
+    .tour3d .btn.next_btn
+    {
+        margin-right: -520px;
+    }
+
+    .tour3d .btn .icon
+    {
+        width: 56px;
+        height: 28px;
+    }
+
+
+
+    /*------------------
+        Gallery head
+    ------------------*/
+    .gallery_head .cont
+    {
+        min-height: 650px;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+
+    .gallery_head .title
+    {
+        font-size: 104px;
+        line-height: 100%;
+    }
+
+
+    .gallery_head .tour_3d_btn
+    {
+        font-size: 22px;
+
+        width: 300px;
+        height: 80px;
+        margin-top: 88px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .gallery .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+        padding-bottom: 180px;
+    }
+
+    .gallery .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+    .gallery .row > *:nth-child(3n+2)
+    {
+        top: 180px;
+    }
+
+    .gallery .row > *:nth-child(3n+3)
+    {
+        top: 52px;
+    }
+
+
+
+    .gallery .write_to_us
+    {
+        margin-top: 100px;
+    }
+
+    .gallery .write_to_us .btn
+    {
+        width: 300px;
+        height: 80px;
+    }
+
+
+
+    /*--------------------
+        Feedback modal
+    --------------------*/
+    .feedback_modal .data
+    {
+        padding: 68px;
+    }
+
+
+    .feedback_modal .block_title
+    {
+        font-size: 44px;
+        line-height: 56px;
+
+        margin-bottom: 60px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form
+    {
+        padding: 80px 0 100px;
+    }
+
+
+    .order_form .block_title
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*---------------
+        Gift cert
+    ---------------*/
+    .gift_cert .head
+    {
+        min-height: 700px;
+        padding: 80px 0;
+    }
+
+
+    .gift_cert .head .block_title
+    {
+        font-size: 88px;
+        line-height: 100%;
+    }
+
+
+
+    .gift_cert .types
+    {
+        padding: 100px 0;
+    }
+
+
+    .gift_cert .types .btns
+    {
+        margin-top: 80px;
+    }
+
+
+    .gift_cert .types .btns .btn
+    {
+        line-height: 100px;
+
+        width: 440px;
+        height: 100px;
+    }
+
+
+    .gift_cert .types .mini_modal button
+    {
+        height: 100px;
+    }
+
+
+
+    .gift_cert .ways
+    {
+        padding: 100px 0;
+    }
+
+
+    .gift_cert .ways .block_title
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .gift_cert .ways .cols
+    {
+        width: calc(100% + 200px);
+        margin-right: -100px;
+        margin-left: -100px;
+    }
+
+
+    .gift_cert .ways .col
+    {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .gift_cert .ways .col:first-child
+    {
+        padding-right: 80px;
+        padding-left: 100px;
+    }
+
+    .gift_cert .ways .col:last-child
+    {
+        padding-right: 100px;
+        padding-left: 80px;
+    }
+
+
+    .gift_cert .ways .title
+    {
+        margin-bottom: 48px;
+    }
+
+
+
+    .gift_cert .main_data .data
+    {
+        width: calc(100% - 360px);
+        padding: 100px 0 80px;
+    }
+
+
+    .gift_cert .main_data .title
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .gift_cert .main_data .image
+    {
+        width: 440px;
+        margin-right: -120px;
+    }
+
+
+
+    .gift_cert .with_love
+    {
+        padding: 100px 0;
+    }
+
+
+    .gift_cert .with_love .title
+    {
+        font-size: 88px;
+        line-height: 100px;
+    }
+
+    .gift_cert .with_love span
+    {
+        font-size: 104px;
+        line-height: 100%;
+    }
+
+
+
+    /*------------------
+        Masters head
+    ------------------*/
+    .masters_head .cont
+    {
+        min-height: 700px;
+    }
+
+
+    .masters_head .block_title
+    {
+        font-size: 104px;
+        line-height: 100%;
+    }
+
+
+
+    /*------------------
+        Masters desc
+    ------------------*/
+    .masters_desc
+    {
+        margin-top: -80px;
+        margin-bottom: 80px;
+    }
+
+    .masters_desc .data
+    {
+        padding: 100px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons
+    {
+        margin-bottom: 100px;
+    }
+
+    .persons .row
+    {
+        margin-bottom: -68px;
+        margin-left: -40px;
+    }
+
+    .persons .row > *
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 68px;
+        margin-left: 40px;
+    }
+
+
+    .persons .person .photo
+    {
+        margin-bottom: 32px;
+    }
+
+    .persons .person .short_name
+    {
+        font-size: 30px;
+    }
+
+
+    .persons .person .desc
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info
+    {
+        margin-bottom: 100px;
+        padding-top: 100px;
+    }
+
+
+    .service_info .block_title
+    {
+        font-size: 104px;
+        line-height: 100%;
+
+        margin-bottom: 48px;
+    }
+
+
+    .service_info .types
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .service_info .types .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .service_info .types .row > *
+    {
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .service_info .image
+    {
+        height: 360px;
+        margin-bottom: -100px;
+    }
+
+
+    .service_info .service
+    {
+        min-height: 280px;
+        padding: 124px 24px 32px;
+    }
+
+
+    .service_info .sticker
+    {
+        font-size: 18px;
+        line-height: 68px;
+
+        top: 20px;
+        left: 20px;
+
+        width: 68px;
+        height: 68px;
+    }
+
+
+    .service_info .service .icon
+    {
+        top: 40px;
+        right: 32px;
+    }
+
+
+    .service_info .service .name
+    {
+        font-size: 26px;
+        line-height: 141.5%;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .cert
+    {
+        padding: 48px 48px 68px;
+    }
+
+
+    .certs .cert .thumb
+    {
+        height: 220px;
+        margin-bottom: 40px;
+    }
+
+
+    .certs .cert .btn
+    {
+        width: 320px;
+    }
+
+
+
+    /*-------------------
+        Services page
+    -------------------*/
+    .services_page
+    {
+        margin-bottom: 100px;
+        padding-top: 120px;
+    }
+
+    .services_page:before
+    {
+        height: 480px;
+    }
+
+
+    .services_page .block_title
+    {
+        font-size: 104px;
+        line-height: 100%;
+
+        margin-bottom: 100px;
+    }
+
+
+
+    .services_page .images
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .services_page .grid > *:nth-last-child(2) .service
+    {
+        padding: 60px;
+    }
+
+
+
+    .services_page .service
+    {
+        padding: 40px;
+    }
+
+
+    .services_page .service .name
+    {
+        font-size: 44px;
+    }
+
+    .services_page .service .name .big
+    {
+        font-size: 78px;
+        line-height: 88px;
+    }
+
+    .services_page .service .name .big2
+    {
+        font-size: 100px;
+    }
+
+    .services_page .service .name .biggest
+    {
+        font-size: 308px;
+        line-height: 340px;
+
+        margin-bottom: -60px;
+    }
+
+
+    .services_page .service .desc
+    {
+        font-size: 28px;
+
+        width: 100%;
+        min-height: 130px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .faq
+    {
+        padding-bottom: 100px;
+    }
+
+
+    .faq > .head
+    {
+        margin-bottom: 100px;
+        padding: 100px 0;
+    }
+
+
+    .faq > .head .block_title
+    {
+        font-size: 104px;
+    }
+
+
+    .faq > .head .block_desc
+    {
+        font-size: 32px;
+
+        margin-top: 36px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .messengers,
+    footer .gis2_link
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        margin-right: 40px;
+        margin-left: 0;
+
+        transform: none;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 100%;
+        padding: 80px;
+    }
+
+
+
+    .service_modal .col_left
+    {
+        width: 528px;
+    }
+
+    .service_modal .col_right
+    {
+        width: calc(100% - 608px);
+    }
+
+
+    .service_modal .service_name
+    {
+        font-size: 60px;
+        line-height: 68px;
+    }
+
+
+    .service_modal .desc
+    {
+        font-size: 22px;
+
+        margin-top: 60px;
+    }
+
+
+    .service_modal .prices
+    {
+        font-size: 36px;
+    }
+
+    .service_modal .prices > *:before
+    {
+        top: 25px;
+    }
+
+    .service_modal .prices > * + *:before
+    {
+        top: 34px;
+    }
+
+
+    .service_modal .cert
+    {
+        margin-top: 64px;
+    }
+
+
+    .service_modal .cert .title
+    {
+        font-size: 29px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .service_modal .cert .btns
+    {
+        margin-left: -24px;
+    }
+
+    .service_modal .cert .btns > *
+    {
+        width: 280px;
+        max-width: calc(50% - 24px);
+        margin-bottom: 12px;
+        margin-left: 24px;
+    }
+
+
+    .service_modal .cert .btns .btn
+    {
+        font-size: 22px;
+        line-height: 64px;
+
+        height: 64px;
+    }
+}

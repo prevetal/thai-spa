@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#D8CFCA">
+		<meta name="theme-color" content="#D8CFCA">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@300;400;500;600;700;800;900&family=Prata&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)" async>
+		<link rel="stylesheet" href="css/response_1599.css" media="print, (max-width: 1599px)" async>
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)" async>
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="mob_close_btn"></button>
+
+					<div class="scroll">
+						<div class="cont row big">
+							<a href="/" class="logo">
+								<img src="images/logo.png" alt="">
+							</a>
+
+							<div class="data row">
+								<div class="together">
+									<button class="menu_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+									</button>
+
+									<div class="links">
+										<div><a href="/">СЕРТИФИКАТ</a></div>
+									</div>
+								</div>
+
+								<div class="phone modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="phone_modal">
+										<span>+7 (423) 20-30-100</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</button>
+
+									<div class="mini_modal" id="phone_modal">
+										<div><a href="tel:+74232030100">+7 (423) 20-30-100</a></div>
+									</div>
+								</div>
+
+								<div class="together">
+									<div class="menu_pdf_link">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_pdf"></use></svg>
+											<span>spa МЕНЮ</span>
+										</a>
+									</div>
+
+									<div class="links">
+										<div><a href="/">Контакты</a></div>
+									</div>
+								</div>
+
+								<div class="langs modal_cont">
+									<button class="current mini_modal_btn" data-modal-id="langs_modal">
+										<span>ru</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</button>
+
+									<div class="mini_modal" id="langs_modal">
+										<button class="btn">en</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="main_menu">
+					<button class="close_btn">
+						<span>закрыть</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
+					</button>
+
+					<div class="data">
+						<div class="links">
+							<div class="animate fadeInUp"><a href="/">Интерьер</a></div>
+							<div class="animate delay fadeInUp"><a href="/">Мастера</a></div>
+							<div class="animate delay2 fadeInUp"><a href="/">Услуги</a></div>
+							<div class="animate delay3 fadeInUp"><a href="/">Контакты</a></div>
+							<div class="animate delay4 fadeInUp"><a href="/">Сертификаты</a></div>
+						</div>
+					</div>
+
+					<div class="image">
+						<img data-src="images/tmp/menu_img.jpg" alt="" class="lazyload">
+					</div>
+				</section>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+						</a>
+
+						<button class="mob_menu_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+						</button>
+
+						<div class="phone modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="mob_phone_modal">
+								<span>+7 (423) 20-30-100</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_phone_modal">
+								<div><a href="tel:+74232030100">+7 (423) 20-30-100</a></div>
+							</div>
+						</div>
+
+						<div class="langs modal_cont">
+							<button class="current mini_modal_btn" data-modal-id="mob_langs_modal">
+								<span>ru</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_langs_modal">
+								<button class="btn">en</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="gift_cert">
+					<div class="head">
+						<div class="cont">
+							<div class="block_title">Подарочный сертификат</div>
+						</div>
+
+						<img data-src="images/bg_gift_cert.jpg" alt="" class="bg lazyload">
+					</div>
+
+
+					<div class="types">
+						<div class="cont">
+							<div class="text">Вы можете приобрести подарочный сертификат на сайте как на услугу, так и на сумму в удобном для Вас формате: бумажном или электронном. А также, заказать доставку бумажного сертификата для себя или Вашего адресата. Электронный сертификат можно отправить на электронную почту получателю. Выберите интересующий Вас вариант</div>
+
+							<div class="btns">
+								<div class="modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="type1_dropdown">СЕРТИФИКАТ НА СУММУ</button>
+
+									<div class="mini_modal" id="type1_dropdown">
+										<div><button class="modal_btn" data-modal="certs_modal">БУМАЖНЫЙ СЕРТИФИКАТ</button></div>
+
+										<div><button>ЭЛЕКТРОННЫЙ СЕРТИФИКАТ</button></div>
+									</div>
+								</div>
+
+								<div>
+									<a href="/" class="btn">СЕРТИФИКАТ НА УСЛУГУ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="ways">
+						<div class="cont">
+							<div class="block_title">Если Вы хотите приобрести Подарочный Сертификат<br> в boutique Thai Spa</div>
+
+							<div class="cols">
+								<div class="col">
+									<div class="title">Приобрести подарочный сертификат можно несколькими способами:</div>
+
+									<ul>
+										<li>онлайн-продажа через сайт</li>
+										<li>в салоне boutique Thai spa по адресу:<br> ул. Светланская 63.</li>
+									</ul>
+								</div>
+
+								<div class="col bg_white">
+									<ul>
+										<li>Подарочный сертификат не именной, подразумевает возможность передачи его другому гостю.</li>
+
+										<li>Действителен в течение 1 года.</li>
+
+										<li>Подарочный сертификат обмену на наличные денежные средства и возврату не подлежит.</li>
+
+										<li>В случае утери сертификата, сертификат не восстанавливается.</li>
+
+										<li>Остаток бумажного подарочного сертификата можно использовать на следующую процедуру в пределах срока годности.</li>
+
+										<li>Электронный подарочный сертификат необходимо реализовать единовременно.</li>
+
+										<li>Возможна доплата по подарочному сертификату разницы, в случае выбора программы большей стоимости.</li>
+									</ul>
+								</div>
+
+								<div class="col">
+									<div class="title">Удобные формы<br> оплаты:</div>
+
+									<ul>
+										<li>Онлайн-оплата.</li>
+										<li>Наличными</li>
+										<li>По терминалу</li>
+										<li>Перевод на карту</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="main_data">
+						<div class="cont row">
+							<div class="data">
+								<div class="title">Вы являетесь счастливым обладателем Подарочного Сертификата в boutique Thai Spa</div>
+
+								<div class="item">Уважаемые гости! Обратите внимание на следующую информацию:</div>
+
+								<div class="sep"></div>
+
+								<div class="item">Салон «THAI SPA» работает только по предварительной записи, необходимо позвонить по телефону +7 (423) 203 01 00.</div>
+
+								<div class="sep"></div>
+
+								<div class="item">Салон «THAI SPA» напоминает гостям о записи за день до посещения. В случае если Гость не подтверждает запись до 18.00, администратор оставляет за собой право отменить предварительную запись.</div>
+
+								<div class="sep"></div>
+
+								<div class="item">Просьба заранее сообщать администратору салона «THAI SPA» об изменениях Вашей записи.</div>
+
+								<div class="sep"></div>
+
+								<div class="item">Об отмене записи просим сообщить до 21:00 предыдущего дня. В противном случае сертификат будет аннулирован.</div>
+
+								<div class="sep"></div>
+
+								<div class="item">При опоздании на процедуру необходимо предупредить администратора заранее. При задержке более чем на 15 минут администратор вправе снять запись.</div>
+
+								<div class="sep"></div>
+
+								<div class="item">Просим отнестись с пониманием к тому, что время нахождения в комнате после процедур имеет временные рамки. Администратор может постучать и напомнить о том, что процедура окончена.</div>
+							</div>
+
+							<div class="image">
+								<img data-src="images/gift_cert_main_data.jpg" alt="" class="lazyload">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="with_love">
+						<div class="cont">
+							<div class="title">С любовью,<br> <span>Boutique Thai Spa</span></div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont big">
+					<div class="logo">
+						<img src="images/logo.png" alt="">
+					</div>
+
+					<div class="menu">
+						<div><a href="/">О салоне</a></div>
+						<div><a href="/">интерьер</a></div>
+						<div><a href="/">услуги</a></div>
+						<div><a href="/">сертификаты</a></div>
+						<div><a href="/">мастера</a></div>
+						<div><a href="/">Spa-Этикет</a></div>
+						<div><a href="/">Контакты</a></div>
+					</div>
+
+					<div class="row">
+						<div class="copyright">Copyright &copy; 2022 SPARQ Inc. All rights reserved.</div>
+
+						<div class="messengers">
+							<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+							</a>
+						</div>
+
+						<div class="gis2_link">
+							<a href="/" target="_blank" rel="noopener nofollow">2GIS</a>
+						</div>
+
+						<div class="location">г. Владивосток, ул. Светланская, 63</div>
+
+						<div class="email">
+							<a href="mailto:thaispa-vl@mail.ru">thaispa-vl@mail.ru</a>
+						</div>
+
+						<div class="phones">
+							<div><a href="tel:+79147925140">+7 (914) 792-51-40</a></div>
+							<div><a href="tel:+74232030100">+7 (423) 20-30-100</a></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<section class="modal" id="certs_modal">
+			<div class="modal_title">Выберите нужный сертификат
+			</div>
+
+			<div class="certs">
+				<div class="row">
+					<div class="cert">
+						<div class="thumb">
+							<img data-src="images/tmp/cert_thumb.jpg" alt="" class="lazyload">
+						</div>
+
+						<div class="name">Подарочный сертификат</div>
+
+						<button class="btn">ПРИОБРЕСТИ</button>
+					</div>
+
+					<div class="cert">
+						<div class="thumb">
+							<img data-src="images/tmp/cert_thumb2.jpg" alt="" class="lazyload">
+						</div>
+
+						<div class="name">С днем рождения!</div>
+
+						<button class="btn">ПРИОБРЕСТИ</button>
+					</div>
+
+					<div class="cert">
+						<div class="thumb">
+							<img data-src="images/tmp/cert_thumb3.jpg" alt="" class="lazyload">
+						</div>
+
+						<div class="name">С 23 февраля!</div>
+
+						<button class="btn">ПРИОБРЕСТИ</button>
+					</div>
+
+					<div class="cert">
+						<div class="thumb">
+							<img data-src="images/tmp/cert_thumb4.jpg" alt="" class="lazyload">
+						</div>
+
+						<div class="name">С 8 марта!</div>
+
+						<button class="btn">ПРИОБРЕСТИ</button>
+					</div>
+
+					<div class="cert">
+						<div class="thumb">
+							<img data-src="images/tmp/cert_thumb5.jpg" alt="" class="lazyload">
+						</div>
+
+						<div class="name">С Новым Годом!</div>
+
+						<button class="btn">ПРИОБРЕСТИ</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/typeit.min.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

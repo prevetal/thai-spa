@@ -1,0 +1,529 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 28px 16px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        height: 44px;
+    }
+
+
+    .mob_header .mob_menu_btn .icon
+    {
+        width: 52px;
+        height: 14px;
+    }
+
+
+    .mob_header .phone
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        order: 2;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .radios .field
+    {
+        margin-left: -24px;
+    }
+
+    .form .radios .field > *
+    {
+        margin-left: 24px;
+    }
+
+
+    .form .radios label
+    {
+        padding-left: 28px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 450px;
+    }
+
+
+    .first_section .info
+    {
+        width: 335px;
+    }
+
+
+    .first_section .before_title
+    {
+        font-size: 18px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 68px;
+    }
+
+
+    .first_section .after_title
+    {
+        font-size: 18px;
+
+        margin-top: 0;
+    }
+
+
+    .first_section .scroll_down
+    {
+        bottom: 20px;
+        left: 20px;
+    }
+
+
+    .first_section .messengers
+    {
+        right: 20px;
+    }
+
+
+    .first_section .gis2_link
+    {
+        right: 20px;
+        bottom: 20px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .swiper-slide
+    {
+        width: 300px;
+    }
+
+
+
+    /*-----------------
+        Contacts block
+    -----------------*/
+    .contacts_block .location
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .contacts_info .head .block_title
+    {
+        font-size: 44px;
+    }
+
+
+
+    /*---------------
+        Main menu
+    ---------------*/
+    .main_menu .data
+    {
+        padding: 40px 48px;
+    }
+
+
+    .main_menu .links
+    {
+        font-size: 40px;
+    }
+
+
+
+    /*------------------
+        Gallery head
+    ------------------*/
+    .gallery_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery .row
+    {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+
+    .gallery .row > *
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+    .gallery .write_to_us .btn
+    {
+        width: 212px;
+        height: 52px;
+    }
+
+
+
+    /*--------------------
+        Feedback modal
+    --------------------*/
+    .feedback_modal .data
+    {
+        padding: 48px 24px;
+    }
+
+
+    .feedback_modal .block_title
+    {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .block_title
+    {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+
+
+    /*---------------
+        Gift cert
+    ---------------*/
+    .gift_cert .head
+    {
+        min-height: 280px;
+    }
+
+
+    .gift_cert .head .block_title
+    {
+        font-size: 40px;
+    }
+
+
+
+    .gift_cert .ways .block_title
+    {
+        font-size: 40px;
+    }
+
+
+
+    .gift_cert .main_data .title
+    {
+        font-size: 40px;
+    }
+
+
+
+    .gift_cert .with_love .title
+    {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .gift_cert .with_love span
+    {
+        font-size: 44px;
+    }
+
+
+
+    /*------------------
+        Masters head
+    ------------------*/
+    .masters_head .cont
+    {
+        min-height: 320px;
+    }
+
+
+    .masters_head .block_title
+    {
+        font-size: 44px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .row
+    {
+        margin-left: 0;
+    }
+
+
+    .persons .row > *
+    {
+        width: 100%;
+        margin-bottom: 48px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .block_title
+    {
+        font-size: 44px;
+    }
+
+
+    .service_info .types a
+    {
+        font-size: 14px;
+
+        padding: 7px 19px;
+    }
+
+
+    .service_info .image
+    {
+        height: 200px;
+        margin-bottom: -40px;
+    }
+
+
+    .service_info .service
+    {
+        min-height: 196px;
+        padding: 88px 12px 20px;
+    }
+
+
+    .service_info .service .name
+    {
+        font-size: 15px;
+    }
+
+    .service_info .service .name br
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .row
+    {
+        margin-bottom: -48px;
+        margin-left: 0;
+    }
+
+    .certs .row > *
+    {
+        width: 100%;
+        margin-bottom: 48px;
+        margin-left: 0;
+    }
+
+
+    .certs .cert .thumb
+    {
+        height: 136px;
+    }
+
+
+
+    /*-------------------
+        Services page
+    -------------------*/
+    .services_page .block_title
+    {
+        font-size: 44px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .services_page .service,
+    .services_page .grid > *:nth-last-child(2) .service,
+    .services_page .grid > *:nth-last-child(1) .service
+    {
+        min-height: 280px;
+        padding: 24px;
+    }
+
+
+    .services_page .service .name
+    {
+        font-size: 26px;
+
+        min-height: 62px;
+    }
+
+
+    .services_page .service .name .big
+    {
+        font-size: 26px;
+    }
+
+    .services_page .service .name .big2
+    {
+        font-size: 26px;
+
+        min-height: 62px;
+    }
+
+    .services_page .service .name .biggest
+    {
+        font-size: 26px;
+    }
+
+
+    .services_page .service .desc
+    {
+        font-size: 18px;
+
+        min-height: 84px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .faq > .head .block_title
+    {
+        font-size: 44px;
+    }
+
+
+    .faq > .head .block_desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .email
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .phones
+    {
+        width: 100%;
+        margin-left: 0;
+
+        justify-content: center;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 48px 24px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 28px;
+    }
+
+
+
+    .service_modal .service_name
+    {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+
+    .service_modal .cert .btns
+    {
+        margin-left: 0;
+    }
+
+
+    .service_modal .cert .btns > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+}

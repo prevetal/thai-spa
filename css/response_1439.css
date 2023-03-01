@@ -1,0 +1,1105 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont,
+    .cont.big
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        min-height: 80px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding-bottom: 24px;
+    }
+
+
+    .accordion_item .text_block
+    {
+        font-size: 18px;
+
+        width: 912px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: -32px;
+        right: 64px;
+
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 28px 0;
+    }
+
+
+    header .data
+    {
+        width: calc(100% - 240px);
+    }
+
+
+    header .phone .btn,
+    header .phone .mini_modal a
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form textarea
+    {
+        height: 104px;
+    }
+
+
+    .form .text_label
+    {
+        font-size: 18px;
+        line-height: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .form .radios label
+    {
+        font-size: 18px;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 224px;
+        height: 68px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .first_section .cont
+    {
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+
+    .first_section .info
+    {
+        width: 860px;
+    }
+
+
+    .first_section .before_title
+    {
+        font-size: 28px;
+        line-height: calc(100% + 4px);
+
+        margin-bottom: 12px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 172px;
+    }
+
+
+    .first_section .after_title
+    {
+        font-size: 28px;
+        line-height: calc(100% + 4px);
+
+        margin-top: -16px;
+    }
+
+
+    .first_section .scroll_down
+    {
+        bottom: 24px;
+        left: 24px;
+    }
+
+
+    .first_section .messengers
+    {
+        right: 24px;
+    }
+
+
+    .first_section .gis2_link
+    {
+        right: 24px;
+        bottom: 24px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .services .block_title
+    {
+        font-size: 72px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .services .controls
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .services .service .letter
+    {
+        font-size: 260px;
+
+        padding: 24px 30px;
+    }
+
+
+    .services .service .thumb
+    {
+        padding-bottom: 132%;
+    }
+
+
+    .services .service .info
+    {
+        padding: 28px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block .image .ver_title
+    {
+        font-size: 136px;
+
+        top: -8px;
+        left: -26px;
+    }
+
+
+    .about_block .data
+    {
+        min-height: 650px;
+        padding: 60px;
+    }
+
+
+    .about_block .block_title
+    {
+        font-size: 56px;
+        line-height: 100%;
+    }
+
+
+    .about_block .company
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-top: 16px;
+    }
+
+
+    .about_block .desc
+    {
+        font-size: 18px;
+        line-height: 140.5%;
+
+        margin-top: 40px;
+    }
+
+
+    .about_block .link
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------------
+        Contacts block
+    -----------------*/
+    .contacts_block .data
+    {
+        min-height: 650px;
+        padding: 60px;
+    }
+
+
+    .contacts_block .block_title
+    {
+        font-size: 72px;
+        line-height: 100%;
+
+        margin-left: 0;
+    }
+
+
+    .contacts_block .time
+    {
+        font-size: 18px;
+        line-height: 100%;
+
+        margin-top: 48px;
+    }
+
+
+    .contacts_block .location
+    {
+        font-size: 32px;
+    }
+
+
+    .contacts_block .phones,
+    .contacts_block .email
+    {
+        font-size: 26px;
+
+        margin-top: 20px;
+    }
+
+
+    .contacts_block .feedback_btn
+    {
+        right: 60px;
+        bottom: 60px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .contacts_info .head
+    {
+        margin-bottom: 80px;
+        padding: 80px 0 72px;
+    }
+
+
+    .contacts_info .head .block_title
+    {
+        font-size: 88px;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 488px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .item
+    {
+        font-size: 28px;
+    }
+
+    .contacts_info .item + .item
+    {
+        margin-top: 28px;
+        padding-top: 28px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 568px);
+        height: 480px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 80px 0;
+    }
+
+
+    .feedback .block_title
+    {
+        font-size: 56px;
+        line-height: 64px;
+
+        margin-bottom: 56px;
+    }
+
+
+    .feedback .form
+    {
+        width: 640px;
+    }
+
+
+
+    /*---------------
+        Main menu
+    ---------------*/
+    .main_menu .data
+    {
+        width: calc(100% - 520px);
+        padding: 56px 92px;
+    }
+
+
+    .main_menu .links
+    {
+        font-size: 64px;
+    }
+
+    .main_menu .links > * + *
+    {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+
+    .main_menu .image
+    {
+        width: 520px;
+    }
+
+
+
+    /*------------
+        Tour3d
+    ------------*/
+    .tour3d .degrees
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        top: 25%;
+
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .tour3d .title
+    {
+        font-size: 88px;
+
+        bottom: 28px;
+    }
+
+
+    .tour3d .btn
+    {
+        bottom: 56px;
+
+        width: 48px;
+        height: 24px;
+    }
+
+    .tour3d .btn.prev_btn
+    {
+        margin-left: -400px;
+    }
+
+    .tour3d .btn.next_btn
+    {
+        margin-right: -400px;
+    }
+
+    .tour3d .btn .icon
+    {
+        width: 48px;
+        height: 24px;
+    }
+
+
+
+    /*------------------
+        Gallery head
+    ------------------*/
+    .gallery_head .cont
+    {
+        min-height: 480px;
+        padding-top: 68px;
+        padding-bottom: 48px;
+    }
+
+
+    .gallery_head .title
+    {
+        font-size: 88px;
+    }
+
+
+    .gallery_head .tour_3d_btn
+    {
+        font-size: 20px;
+
+        width: 264px;
+        height: 64px;
+        margin-top: 68px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .gallery .row
+    {
+        padding-bottom: 124px;
+    }
+
+    .gallery .row > *:nth-child(3n+2)
+    {
+        top: 124px;
+    }
+
+    .gallery .row > *:nth-child(3n+3)
+    {
+        top: 40px;
+    }
+
+
+
+    .gallery .write_to_us
+    {
+        margin-top: 80px;
+    }
+
+    .gallery .write_to_us .btn
+    {
+        width: 264px;
+        height: 64px;
+    }
+
+
+
+    /*--------------------
+        Feedback modal
+    --------------------*/
+    .feedback_modal .data
+    {
+        width: calc(50% + 40px);
+        padding: 60px;
+    }
+
+
+    .feedback_modal .block_title
+    {
+        font-size: 40px;
+        line-height: 48px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .feedback_modal .form .submit
+    {
+        padding: 0;
+    }
+
+
+    .feedback_modal .image
+    {
+        width: calc(50% - 40px);
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form
+    {
+        padding: 80px 0;
+    }
+
+
+    .order_form .block_title
+    {
+        font-size: 56px;
+        line-height: 64px;
+
+        margin-bottom: 68px;
+    }
+
+
+    .order_form .form
+    {
+        width: 820px;
+    }
+
+
+    .order_form .form .submit
+    {
+        padding: 0;
+    }
+
+    .order_form .form .submit_btn
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        width: 300px;
+        height: 56px;
+    }
+
+
+
+    /*---------------
+        Gift cert
+    ---------------*/
+    .gift_cert .head
+    {
+        min-height: 550px;
+        padding: 68px 0;
+    }
+
+
+    .gift_cert .head .block_title
+    {
+        font-size: 72px;
+    }
+
+
+
+    .gift_cert .types
+    {
+        padding: 80px 0;
+    }
+
+
+    .gift_cert .types .text
+    {
+        font-size: 22px;
+
+        width: 960px;
+        padding: 20px 40px;
+    }
+
+
+    .gift_cert .types .btns
+    {
+        margin-top: 60px;
+    }
+
+
+    .gift_cert .types .btns .btn
+    {
+        font-size: 22px;
+        line-height: 80px;
+
+        width: 360px;
+        height: 80px;
+    }
+
+
+    .gift_cert .types .mini_modal button
+    {
+        font-size: 22px;
+        line-height: 24px;
+
+        height: 80px;
+    }
+
+
+
+    .gift_cert .ways
+    {
+        padding: 80px 0;
+    }
+
+
+    .gift_cert .ways .block_title
+    {
+        font-size: 60px;
+
+        width: 800px;
+        margin-bottom: 80px;
+    }
+
+
+    .gift_cert .ways .cols
+    {
+        width: calc(100% + 64px);
+        margin-right: -32px;
+        margin-left: -32px;
+    }
+
+
+    .gift_cert .ways .col
+    {
+        padding-top: 68px;
+        padding-bottom: 68px;
+    }
+
+    .gift_cert .ways .col:first-child
+    {
+        padding-right: 68px;
+        padding-left: 32px;
+    }
+
+    .gift_cert .ways .col:last-child
+    {
+        padding-right: 32px;
+        padding-left: 68px;
+    }
+
+    .gift_cert .ways .col.bg_white
+    {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+
+
+    .gift_cert .ways .title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .gift_cert .ways ul li
+    {
+        font-size: 18px;
+    }
+
+    .gift_cert .ways ul li:before
+    {
+        top: 9px;
+    }
+
+    .gift_cert .ways ul li + li
+    {
+        margin-top: 16px;
+    }
+
+
+
+    .gift_cert .main_data .data
+    {
+        width: calc(100% - 340px);
+        padding: 80px 0;
+    }
+
+
+    .gift_cert .main_data .title
+    {
+        font-size: 56px;
+
+        margin-bottom: 48px;
+    }
+
+
+    .gift_cert .main_data .item
+    {
+        font-size: 18px;
+    }
+
+
+    .gift_cert .main_data .image
+    {
+        width: 324px;
+        margin-right: -24px;
+    }
+
+
+
+    .gift_cert .with_love
+    {
+        padding: 80px 0;
+    }
+
+
+    .gift_cert .with_love .title
+    {
+        font-size: 72px;
+        line-height: 88px;
+    }
+
+    .gift_cert .with_love span
+    {
+        font-size: 88px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info
+    {
+        margin-bottom: 80px;
+        padding-top: 80px;
+    }
+
+
+    .service_info .block_title
+    {
+        font-size: 88px;
+    }
+
+
+    .service_info .types
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .service_info .types a
+    {
+        font-size: 18px;
+    }
+
+
+    .service_info .image
+    {
+        width: calc(100% + 80px);
+        height: 320px;
+        margin-right: -40px;
+        margin-bottom: -80px;
+        margin-left: -40px;
+    }
+
+
+    .service_info .service
+    {
+        padding: 120px 24px 24px;
+    }
+
+
+    .service_info .service .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .cert
+    {
+        padding: 40px 40px 64px;
+    }
+
+
+    .certs .cert .thumb
+    {
+        height: 144px;
+        margin-bottom: 24px;
+    }
+
+
+    .certs .cert .btn
+    {
+        bottom: -26px;
+
+        width: 220px;
+        height: 52px;
+    }
+
+
+
+    /*-------------------
+        Services page
+    -------------------*/
+    .services_page
+    {
+        margin-bottom: 80px;
+        padding-top: 100px;
+    }
+
+    .services_page:before
+    {
+        height: 420px;
+    }
+
+
+    .services_page .block_title
+    {
+        font-size: 88px;
+
+        margin-bottom: 80px;
+    }
+
+
+
+    .services_page .service
+    {
+        min-height: 340px;
+        padding: 28px;
+    }
+
+    .services_page .grid > *:nth-last-child(2) .service
+    {
+        padding: 48px;
+    }
+
+    .services_page .grid > *:nth-last-child(1) .service
+    {
+        padding: 48px 40px;
+    }
+
+
+    .services_page .service .name
+    {
+        font-size: 32px;
+
+        min-height: 72px;
+    }
+
+    .services_page .service .name .big
+    {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    .services_page .service .name .big2
+    {
+        font-size: 68px;
+    }
+
+    .services_page .service .name .biggest
+    {
+        font-size: 224px;
+        line-height: 280px;
+    }
+
+
+    .services_page .service .desc
+    {
+        font-size: 22px;
+
+        min-height: 103px;
+    }
+
+    .services_page .grid > *:nth-last-child(2) .desc
+    {
+        width: 100%;
+        margin-top: 28px;
+    }
+
+    .services_page .grid > *:nth-last-child(1) .desc
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .faq
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .faq > .head
+    {
+        margin-bottom: 80px;
+        padding: 80px 0;
+    }
+
+
+    .faq > .head .block_title
+    {
+        font-size: 88px;
+    }
+
+
+    .faq > .head .block_desc
+    {
+        font-size: 24px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .row
+    {
+        margin-top: 68px;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    footer .gis2_link
+    {
+        margin-right: auto;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 60px;
+    }
+
+
+
+    .service_modal .col_left
+    {
+        width: 480px;
+    }
+
+    .service_modal .col_right
+    {
+        width: calc(100% - 540px);
+    }
+
+
+    .service_modal .service_name
+    {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+
+    .service_modal .desc
+    {
+        font-size: 20px;
+
+        margin-top: 40px;
+    }
+
+
+    .service_modal .prices
+    {
+        font-size: 30px;
+    }
+
+    .service_modal .prices > *:before
+    {
+        top: 22px;
+    }
+
+    .service_modal .prices > * + *:before
+    {
+        top: 32px;
+    }
+
+
+    .service_modal .cert
+    {
+        margin-top: 40px;
+    }
+
+
+    .service_modal .cert .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .service_modal .cert .btns
+    {
+        margin-left: -12px;
+    }
+
+    .service_modal .cert .btns > *
+    {
+        width: calc(50% - 12px);
+        max-width: calc(50% - 12px);
+        margin-left: 12px;
+    }
+
+
+    .service_modal .cert .btns .btn
+    {
+        font-size: 20px;
+        line-height: 60px;
+
+        height: 60px;
+    }
+}

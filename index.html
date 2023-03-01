@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#D8CFCA">
+		<meta name="theme-color" content="#D8CFCA">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@300;400;500;600;700;800;900&family=Prata&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)" async>
+		<link rel="stylesheet" href="css/response_1599.css" media="print, (max-width: 1599px)" async>
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)" async>
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="absolute">
+					<button class="mob_close_btn"></button>
+
+					<div class="scroll">
+						<div class="cont row big">
+							<div class="logo">
+								<img src="images/logo.png" alt="">
+							</div>
+
+							<div class="data row">
+								<div class="together">
+									<button class="menu_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+									</button>
+
+									<div class="links">
+										<div><a href="/">СЕРТИФИКАТ</a></div>
+									</div>
+								</div>
+
+								<div class="phone modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="phone_modal">
+										<span>+7 (423) 20-30-100</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</button>
+
+									<div class="mini_modal" id="phone_modal">
+										<div><a href="tel:+74232030100">+7 (423) 20-30-100</a></div>
+									</div>
+								</div>
+
+								<div class="together">
+									<div class="menu_pdf_link">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_pdf"></use></svg>
+											<span>spa МЕНЮ</span>
+										</a>
+									</div>
+
+									<div class="links">
+										<div><a href="/">Контакты</a></div>
+									</div>
+								</div>
+
+								<div class="langs modal_cont">
+									<button class="current mini_modal_btn" data-modal-id="langs_modal">
+										<span>ru</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</button>
+
+									<div class="mini_modal" id="langs_modal">
+										<button class="btn">en</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="main_menu">
+					<button class="close_btn">
+						<span>закрыть</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
+					</button>
+
+					<div class="data">
+						<div class="links">
+							<div class="animate fadeInUp"><a href="/">Интерьер</a></div>
+							<div class="animate delay fadeInUp"><a href="/">Мастера</a></div>
+							<div class="animate delay2 fadeInUp"><a href="/">Услуги</a></div>
+							<div class="animate delay3 fadeInUp"><a href="/">Контакты</a></div>
+							<div class="animate delay4 fadeInUp"><a href="/">Сертификаты</a></div>
+						</div>
+					</div>
+
+					<div class="image">
+						<img data-src="images/tmp/menu_img.jpg" alt="" class="lazyload">
+					</div>
+				</section>
+
+
+				<section class="mob_header absolute">
+					<div class="cont row">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<button class="mob_menu_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+						</button>
+
+						<div class="phone modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="mob_phone_modal">
+								<span>+7 (423) 20-30-100</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_phone_modal">
+								<div><a href="tel:+74232030100">+7 (423) 20-30-100</a></div>
+							</div>
+						</div>
+
+						<div class="langs modal_cont">
+							<button class="current mini_modal_btn" data-modal-id="mob_langs_modal">
+								<span>ru</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_langs_modal">
+								<button class="btn">en</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="first_section">
+					<div class="cont">
+						<div class="info">
+							<div class="before_title">Откройте мир</div>
+
+							<div class="title">THAI SPA</div>
+
+							<div class="after_title">в центре Владивостока</div>
+						</div>
+					</div>
+
+					<div class="scroll_down">
+						<span>Вниз</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
+					</div>
+
+					<div class="messengers">
+						<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+						</a>
+					</div>
+
+					<div class="gis2_link">
+						<a href="/" target="_blank" rel="noopener nofollow">2GIS</a>
+					</div>
+
+					<img data-src="images/tmp/bg_first_section.jpg" alt="" class="bg lazyload">
+				</section>
+
+
+				<section class="services">
+					<div class="cont">
+						<div class="block_title">Услуги</div>
+
+						<div class="swiper animate fadeInUp">
+							<div class="controls">
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_hor"></use></svg>
+								</div>
+
+								<div class="circle"></div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_hor"></use></svg>
+								</div>
+							</div>
+
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="/" class="service">
+										<div class="letter">T</div>
+
+										<div class="thumb">
+											<img data-src="images/tmp/service_thumb.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="info">
+											<div class="name">Уход за телом</div>
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="/" class="service">
+										<div class="letter">H</div>
+
+										<div class="thumb">
+											<img data-src="images/tmp/service_thumb.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="info">
+											<div class="name">Массажи</div>
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="/" class="service">
+										<div class="letter">A</div>
+
+										<div class="thumb">
+											<img data-src="images/tmp/service_thumb.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="info">
+											<div class="name">Банные церемонии</div>
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="/" class="service">
+										<div class="letter">I</div>
+
+										<div class="thumb">
+											<img data-src="images/tmp/service_thumb.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="info">
+											<div class="name">СПА-ПРОГРАММЫ ДЛЯ ЛИЦА</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="about_block">
+					<div class="image">
+						<div class="ver_title">THAI SPA</div>
+
+						<img data-src="images/tmp/about_block_img.jpg" alt="" class="lazyload">
+					</div>
+
+					<div class="data">
+						<div>
+							<div class="block_title animate fadeInUp">О салоне</div>
+
+							<div class="company animate delay fadeInUp">THAI SPA</div>
+
+							<div class="desc animate delay2 fadeInUp">26 декабря 2008 года во Владивостоке, в самом сердце города открылся первый и единственный СПА — салон тайского массажа – «THAI SPA». Салон предлагает традиционный тайский массаж, расслабляющие СПА – церемонии, а также шикарный уход за телом. Ароматы редких трав и экзотических масел, роскошный интерьер и загадочная расслабляющая музыка, восточное радушие и русское гостеприимство ждут вас в салоне «THAI SPA».</div>
+
+							<div class="link animate delay3 fadeInUp">
+								<a href="/">
+									<span>Подробнее</span>
+									<span id="typed"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="contacts_block">
+					<div class="data">
+						<div>
+							<div class="block_title">Контакты</div>
+
+							<div class="time">09:00 ‒ 21:00, без выходных и перерывов.</div>
+
+							<div class="location">г. Владивосток, ул. Светланская, 63</div>
+
+							<div class="email">
+								<a href="mailto:thaispa-vl@mail.ru">thaispa-vl@mail.ru</a>
+							</div>
+
+							<div class="phones">
+								<div><a href="/">WhatsApp: +7 (914) 792-51-40</a></div>
+								<div><a href="tel:+74232030100">+7 (423) 20-30-100</a></div>
+							</div>
+
+							<button class="feedback_btn">
+								<span>написать нам</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_hor"></use></svg>
+							</button>
+						</div>
+					</div>
+
+					<div class="image">
+						<img data-src="images/tmp/contacts_block_img.jpg" alt="" class="lazyload">
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont big">
+					<div class="logo">
+						<img src="images/logo.png" alt="">
+					</div>
+
+					<div class="menu">
+						<div><a href="/">О салоне</a></div>
+						<div><a href="/">интерьер</a></div>
+						<div><a href="/">услуги</a></div>
+						<div><a href="/">сертификаты</a></div>
+						<div><a href="/">мастера</a></div>
+						<div><a href="/">Spa-Этикет</a></div>
+						<div><a href="/">Контакты</a></div>
+					</div>
+
+					<div class="row">
+						<div class="copyright">Copyright &copy; 2022 SPARQ Inc. All rights reserved.</div>
+
+						<div class="messengers">
+							<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+							</a>
+						</div>
+
+						<div class="gis2_link">
+							<a href="/" target="_blank" rel="noopener nofollow">2GIS</a>
+						</div>
+
+						<div class="location">г. Владивосток, ул. Светланская, 63</div>
+
+						<div class="email">
+							<a href="mailto:thaispa-vl@mail.ru">thaispa-vl@mail.ru</a>
+						</div>
+
+						<div class="phones">
+							<div><a href="tel:+79147925140">+7 (914) 792-51-40</a></div>
+							<div><a href="tel:+74232030100">+7 (423) 20-30-100</a></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<section class="feedback_modal">
+			<button class="close_btn">
+				<span>закрыть</span>
+				<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
+			</button>
+
+			<div class="data">
+				<div class="block_title">написать нам</div>
+
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Ваше имя</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+							<div class="label">email</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+							<div class="label">телефон</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<textarea name=""></textarea>
+							<div class="label">сообщение</div>
+						</div>
+					</div>
+
+					<div class="submit">
+						<div class="agree">
+							<label>
+								<input type="checkbox" name="" checked>
+
+								<div class="check">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+								</div>
+
+								<div>Нажимая кнопку "Отправить", я соглашаюсь<br> с <a href="/" target="_blank">Политикой конфиденциальности</a></div>
+							</label>
+						</div>
+
+						<button type="submit" class="submit_btn">Отправить</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="image">
+				<img data-src="images/tmp/feedback_modal_img.jpg" alt="" class="lazyload">
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/typeit.min.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
