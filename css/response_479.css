@@ -467,6 +467,17 @@
     /*------------
         Footer
     ------------*/
+    footer .menu
+    {
+        margin-bottom: -20px;
+    }
+
+    footer .menu > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
     footer .email
     {
         width: 100%;

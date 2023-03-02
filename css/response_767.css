@@ -920,6 +920,30 @@
 
 
 
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        display: flex;
+
+        margin-bottom: -28px;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    footer .menu > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+    }
+
+
+
     /*-----------
         PopUp
     -----------*/
