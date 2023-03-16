@@ -994,6 +994,69 @@
 
 
     /*------------
+        Stocks
+    ------------*/
+    .stocks .head
+    {
+        margin-bottom: 80px;
+        padding: 80px 0;
+    }
+
+
+    .stocks .head .block_title
+    {
+        font-size: 88px;
+    }
+
+
+    .stocks .head .block_desc
+    {
+        font-size: 24px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        Stock info
+    ----------------*/
+    .stock_info
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .stock_info .head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .stock_info .head .cont
+    {
+        height: calc(100vh - 117px);
+        padding-top: 48px;
+        padding-bottom: 60px;
+    }
+
+
+    .stock_info .head .date
+    {
+        top: 48px;
+    }
+
+
+    .stock_info .head .title
+    {
+        font-size: 40px;
+
+        width: 640px;
+    }
+
+
+
+    /*------------
         Footer
     ------------*/
     footer .row

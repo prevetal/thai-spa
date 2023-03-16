@@ -17,6 +17,17 @@
 
 
 
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 40px;
+        padding-top: 20px;
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -857,6 +868,86 @@
     .faq > .head .block_desc
     {
         font-size: 20px;
+    }
+
+
+
+    /*------------
+        Stocks
+    ------------*/
+    .stocks .head
+    {
+        margin-bottom: 60px;
+        padding: 68px 0 60px;
+    }
+
+
+    .stocks .head .block_title
+    {
+        font-size: 64px;
+    }
+
+
+    .stocks .head .block_desc
+    {
+        font-size: 20px;
+    }
+
+
+    .stocks .block_title
+    {
+        font-size: 35px;
+
+        margin-bottom: 36px;
+    }
+
+
+    .stocks .stock .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .stocks .stock .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Stock info
+    ----------------*/
+    .stock_info
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .stock_info .head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .stock_info .head .cont
+    {
+        height: 500px;
+        padding-bottom: 48px;
+    }
+
+
+    .stock_info .head .title
+    {
+        font-size: 35px;
+
+        width: 100%;
+    }
+
+
+    .stock_info .text_block
+    {
+        font-size: 19px;
     }
 
 

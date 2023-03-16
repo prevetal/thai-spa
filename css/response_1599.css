@@ -351,6 +351,32 @@
 
 
 
+    /*----------------
+        Stock info
+    ----------------*/
+    .stock_info .head .cont
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .stock_info .head .title
+    {
+        font-size: 44px;
+
+        width: 708px;
+    }
+
+
+    .stock_info .text_block
+    {
+        font-size: 22px;
+
+        width: 1200px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

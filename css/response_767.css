@@ -67,6 +67,31 @@
 
 
 
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination a
+    {
+        font-size: 14px;
+        line-height: 36px;
+
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .pagination .prev
+    {
+        margin-right: 12px;
+    }
+
+    .pagination .next
+    {
+        margin-left: 19px;
+    }
+
+
+
     /*-----------------
         Mob. header
     -----------------*/
@@ -921,6 +946,111 @@
 
 
     /*------------
+        Stocks
+    ------------*/
+    .stocks .head
+    {
+        margin-bottom: 48px;
+        padding: 60px 0 48px;
+    }
+
+
+    .stocks .head .block_title
+    {
+        font-size: 52px;
+    }
+
+
+    .stocks .head .block_desc
+    {
+        font-size: 18px;
+    }
+
+
+    .stocks .block_title
+    {
+        font-size: 30px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .stocks .row
+    {
+        margin-bottom: -32px;
+        margin-left: -20px;
+    }
+
+    .stocks .row > *,
+    .stocks .row.big > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 32px;
+        margin-left: 20px;
+    }
+
+
+    .stocks .stock .thumb
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .stocks .stock .date
+    {
+        font-size: 11px;
+
+        top: 12px;
+        right: 12px;
+
+        padding: 8px 10px 6px;
+    }
+
+
+    .stocks .stock .name
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*----------------
+        Stock info
+    ----------------*/
+    .stock_info .head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .stock_info .head .cont
+    {
+        height: 360px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+    .stock_info .head .date
+    {
+        top: 40px;
+    }
+
+
+    .stock_info .head .title
+    {
+        font-size: 30px;
+    }
+
+
+    .stock_info .text_block
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------
         Footer
     ------------*/
     footer .menu
@@ -929,11 +1059,12 @@
 
         margin-bottom: -28px;
 
+        text-align: center;
+
         justify-content: space-between;
         align-items: flex-start;
         align-content: flex-start;
         flex-wrap: wrap;
-        text-align: center;
     }
 
     footer .menu > *

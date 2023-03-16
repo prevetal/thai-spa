@@ -30,6 +30,23 @@
 
 
 
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        justify-content: center;
+    }
+
+
+    .pagination .more_btn
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
     /*-----------------
         Mob. header
     -----------------*/
@@ -460,6 +477,77 @@
     .faq > .head .block_desc
     {
         font-size: 16px;
+    }
+
+
+
+    /*------------
+        Stocks
+    ------------*/
+    .stocks .head .block_title
+    {
+        font-size: 44px;
+    }
+
+
+    .stocks .head .block_desc
+    {
+        font-size: 16px;
+    }
+
+    .stocks .head .block_desc br
+    {
+        display: none;
+    }
+
+
+    .stocks .row
+    {
+        margin-left: 0;
+    }
+
+    .stocks .row > *,
+    .stocks .row.big > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .stocks .stock .date
+    {
+        font-size: 12px;
+
+        top: 16px;
+        right: 16px;
+    }
+
+
+    .stocks .stock .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Stock info
+    ----------------*/
+    .stock_info .head .cont
+    {
+        height: 320px;
+    }
+
+
+    .stock_info .head .title
+    {
+        font-size: 28px;
+    }
+
+
+    .stock_info .text_block
+    {
+        font-size: 17px;
     }
 
 

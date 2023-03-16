@@ -766,6 +766,114 @@
 
 
     /*------------
+        Stocks
+    ------------*/
+    .stocks
+    {
+        padding-bottom: 68px;
+    }
+
+
+    .stocks .head
+    {
+        margin-bottom: 100px;
+        padding: 100px 0;
+    }
+
+
+    .stocks .head .block_title
+    {
+        font-size: 104px;
+    }
+
+
+    .stocks .head .block_desc
+    {
+        font-size: 32px;
+
+        margin-top: 36px;
+    }
+
+
+    .stocks .block_title
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .stocks .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    .stocks .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+    .stocks .row.big > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .stocks .stock .date
+    {
+        font-size: 12px;
+
+        top: 16px;
+        right: 16px;
+
+        padding: 10px 10px 8px;
+    }
+
+
+    .stocks .stock .thumb
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .stocks .stock .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*----------------
+        Stock info
+    ----------------*/
+    .stock_info
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .stock_info .head
+    {
+        margin-bottom: 100px;
+    }
+
+    .stock_info .head .cont
+    {
+        padding-bottom: 100px;
+    }
+
+
+    .stock_info .head .date
+    {
+        font-size: 12px;
+
+        padding: 10px 10px 8px;
+    }
+
+
+
+    /*------------
         Footer
     ------------*/
     footer .messengers,
