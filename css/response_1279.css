@@ -73,7 +73,7 @@
 
     header .data
     {
-        width: calc(100% - 204px);
+        width: calc(100% - 188px);
     }
 
 
@@ -86,14 +86,20 @@
 
     header .menu_btn + .links
     {
-        margin-left: 32px;
+        margin-left: 28px;
+    }
+
+
+    header .links > * + *
+    {
+        margin-left: 20px;
     }
 
 
     header .phone .btn,
     header .phone .mini_modal a
     {
-        font-size: 28px;
+        font-size: 26px;
     }
 
 

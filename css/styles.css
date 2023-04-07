@@ -1006,13 +1006,25 @@ header .menu_pdf_link + .links
 }
 
 
+header .links > * + *
+{
+    margin-left: 26px;
+}
+
+
 header .links a
 {
     color: currentColor;
+    font-weight: bold;
 
     display: block;
 
     text-decoration: none;
+}
+
+header .links a.red
+{
+    color: #6d0c05;
 }
 
 
@@ -1754,6 +1766,42 @@ header .langs .mini_modal .btn
     padding: 12px 8px;
 
     text-transform: uppercase;
+}
+
+
+
+.mob_header .links
+{
+    font-size: 18px;
+    line-height: 100%;
+
+    display: flex;
+
+    margin-right: auto;
+    margin-left: 0;
+
+    text-transform: uppercase;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.mob_header .links a
+{
+    color: currentColor;
+    font-weight: bold;
+
+    display: block;
+
+    text-decoration: none;
+}
+
+.mob_header .links a.red
+{
+    color: #6d0c05;
 }
 
 

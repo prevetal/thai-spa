@@ -132,6 +132,15 @@
     }
 
 
+    .mob_header .links
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        order: 5;
+    }
+
+
 
     /*------------------
         Form elements
@@ -1061,7 +1070,7 @@
 
         text-align: center;
 
-        justify-content: space-between;
+        justify-content: center;
         align-items: flex-start;
         align-content: flex-start;
         flex-wrap: wrap;
@@ -1069,7 +1078,7 @@
 
     footer .menu > *
     {
-        width: calc(33.333% - 20px);
+        width: 33.333%;
         margin-bottom: 20px;
     }
 
